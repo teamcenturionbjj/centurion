@@ -6,6 +6,15 @@
     background-color:  rgba(229, 227, 227, 0.4); 
 }
 
+.navbar-logo {
+    width: 10%;
+    margin-right: 2%
+}
+
+.navbar-icon {
+    width: 5%;
+}
+
 .header-logo {
     width: 30%;
 }
