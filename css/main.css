@@ -1,12 +1,27 @@
+.body {
+    background-color: #0c0c0c;
+}
+
 .navbar-color {
-    background-color:  rgba(58, 58, 58, 0.4); 
+    background-color:  rgba(229, 227, 227, 0.4); 
+}
+
+.header-logo {
+    width: 30%;
+}
+
+.header-text {
+    font-weight: 900;
+    font-size: 3.5em;
+    margin-top: 5%;
 }
 
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('../images/header_centurion.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url('../images/centurion_competition.jpg');
+    background-color: #e5e3e3
   }
