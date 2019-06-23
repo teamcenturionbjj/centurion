@@ -1,5 +1,5 @@
 .body {
-    background-color: #0c0c0c;
+    background-color: #000;
 }
 
 .navbar-color {
@@ -22,7 +22,7 @@
 
 .header-text {
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 3.5vw;
     margin-top: 5%;
 }
 
@@ -34,4 +34,36 @@
     background-repeat: no-repeat;
     background-image: url('../images/centurion_competition.jpg');
     background-color: #e5e3e3
-  }
+}
+
+.section-root {
+    position: relative;
+    top: 100px
+}
+
+.section-image {
+    width: 70%;
+}
+
+.section-title-right {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    font-size: 5vw;
+    color: #FFF;
+    z-index: 2;
+}
+
+.section-content-right {
+    position: absolute;
+    right: 14%;
+    top: 5%;
+    font-size: 1vw;
+    color: #FFF;
+    width: 60%;
+    outline: 2px solid red;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
