@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "title";
+    src: url("../fonts/championship.ttf")
+}
+
+@font-face {
+    font-family: "header";
+    src: url("../fonts/ariana_violeta.ttf")
+}
+
 .body {
     background-color: #000;
 }
@@ -23,7 +33,8 @@
 .header-text {
     font-weight: 900;
     font-size: 3.5vw;
-    margin-top: 5%;
+    margin-top: 2%;
+    font-family: header;
 }
 
 .masthead {
@@ -34,63 +45,4 @@
     background-repeat: no-repeat;
     background-image: url('../images/centurion_competition.jpg');
     background-color: #e5e3e3
-}
-
-.section-root {
-    position: relative;
-    top: 100px
-}
-
-.section-image-right {
-    width: 70%;
-}
-
-.section-title-right {
-    position: absolute;
-    right: 10%;
-    top: 10%;
-    font-size: 5vw;
-    color: #FFF;
-    z-index: 2;
-}
-
-.section-content-right {
-    position: absolute;
-    right: 14%;
-    top: 5%;
-    font-size: 1vw;
-    color: #FFF;
-    width: 60%;
-    outline: 2px solid red;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.section-image-left {
-    width: 70%;
-}
-
-.section-title-left {
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    font-size: 5vw;
-    color: #FFF;
-    z-index: 2;
-}
-
-.section-content-left {
-    position: absolute;
-    left: 14%;
-    top: 5%;
-    font-size: 1vw;
-    color: #FFF;
-    width: 60%;
-    outline: 2px solid red;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 2%;
-    padding-right: 2%;
 }
