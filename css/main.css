@@ -46,3 +46,17 @@
     background-image: url('../images/centurion_competition.jpg');
     background-color: #e5e3e3
 }
+
+.bottom-banner {
+    background-color: rgb(221, 221, 221);
+    padding: 50px;
+    margin-top: 100px
+}
+
+.bottom-logo {
+    width: 150px;
+    margin-right: 30px
+}
+
+.bottom-contacts-text {
+}

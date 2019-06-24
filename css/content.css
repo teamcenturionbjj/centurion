@@ -58,3 +58,12 @@
     padding-left: 2%;
     padding-right: 2%;
 }
+
+.footer-root {
+    position: relative;
+    background-color: rgb(221, 221, 221);
+    height: 100px;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
