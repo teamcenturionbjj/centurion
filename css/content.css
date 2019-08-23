@@ -74,5 +74,7 @@
 }
 
 .map {
-    height: 100%;
+    position: relative;
+    height: 400px;
+    top: 300px;
 }
