@@ -69,6 +69,7 @@
 }
 
 .map {
+    width: 60%;
     height: 400px;
     top: 300px;
 }
