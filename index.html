@@ -62,7 +62,7 @@
 
     <!-- Page Content -->
     <div class="container-fluid">
-        <div class="raw section-root">
+        <div class="row section-root">
             <img class="section-image-right" src="images/lift.png">
             <h1 class="section-title-left">PREPARAZIONE FISICA</h1>
             <p class="section-content-left">All'asse portante del Jiu Jitsu brasiliano, al Centurion è affiancata la
@@ -72,26 +72,20 @@
                 prevenzione degli infortuni muscolari e sopratutto articolari.</p>
         </div>
 
-        <div class="raw section-root">
+        <div class="row section-root">
             <img class="section-image-left" src="images/food.png">
             <h1 class="section-title-right">ALIMENTAZIONE</h1>
-            <p class="section-content-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus
-                libero
-                fringilla ante tristique, non tristique nibh vestibulum. Donec metus libero, elementum eget sodales
-                quis,
-                tincidunt id ante. Duis ultricies porttitor sodales. Vivamus consectetur pharetra nunc, et varius neque
-                sollicitudin sed. Duis nec erat nibh. Suspendisse id porta tellus, ac placerat ipsum. Cras augue nisl,
-                lacinia nec egestas ultrices, luctus eget eros. Donec congue pellentesque euismod. Ut rhoncus finibus
-                pellentesque. Nam ullamcorper nibh nunc, in pharetra dui rutrum vel. Mauris lectus eros, placerat ut
-                justo
-                sed, pulvinar sodales neque. Praesent magna lorem, pretium sit amet posuere sed, sollicitudin
-                sollicitudin
-                nibh. Curabitur gravida sollicitudin libero, at cursus lectus consectetur in. Maecenas eget interdum
-                sem, id
-                lobortis ipsum. Vestibulum nec tellus ac sapien mollis interdum at eget ante.</p>
+            <p class="section-content-right">
+                Nessuno può essere sano e in forma se si alimenta in maniera scorretta. Alla base di ogni prestazione
+                c'è la giusta alimentazione, che al Centurion viene tenuta nella massima considerazione. In particolare
+                si dà molto spazio al concetto di nutrizione, ossia all'insieme integrato di alimentazione più
+                idratazione più integrazione. Senza rilasciare diete, ci si limita a suggerire cibi sani e idonei al
+                fine del dimagrimento, dell'aumento della massa magra e in generale della massima omeostasi, puntando
+                molto anche sul timing dei pasti e della scelta degli accoppiamenti tra alimenti.
+            </p>
         </div>
 
-        <div class="raw section-root">
+        <div class="row section-root">
             <img class="section-image-right" src="images/mario.png">
             <h1 class="section-title-left">HEAD COACH</h1>
             <p class="section-content-left">
@@ -120,7 +114,7 @@
                 versatilità ed efficacia dell’arte, decisi istantaneamente di dedicare anima e corpo, sino al
                 punto di partire armi e bagagli per Roma, dove restai a lungo per allenarmi full-time.
                 Sono il fondatore di Team Centurion, <em>una delle prime
-                scuole di BJJ a Firenze e in Toscana</em>.<br />
+                    scuole di BJJ a Firenze e in Toscana</em>.<br />
 
                 Ho conseguito la "faixa preta" (<strong>cintura nera</strong>) nel
                 marzo 2014 da <a style="color: red;" href="http://www.bjjheroes.com/bjj-fighters/octavio-couto-ratinho"
@@ -128,21 +122,17 @@
                     "Ratinho" Couto Jr.</a> Partecipai a diverse gare di BJJ e Submission come atleta (Campionato
                 Europeo 2006, UK Open 2005) e come
                 insegnante, con risultati soddisfacenti per i suoi allievi, sempre medagliati in tutte le
-                edizioni.<br/>
+                edizioni.<br />
         </div>
 
     </div>
 
-    <div class="container-fluid">
-        <div class="raw map" id="map"></div>
-    </div>
-
-    <!-- #region BOTTOM BANNER -->
-    <!--<div class="bottom-banner container-fluid">
-            <div class="row">
+    <div class="container-fluid h-100">
+        <div class="row map" id="map"></div>
+        <div class="row bottom-banner">
                 <img class="bottom-logo" src="images/logo_centurion.png">
                 <div class="col-10">
-                    <div class="row bottom-contacts-text">
+                    <div class="row">
                         CONTACTS:
                     </div>
                     <div class="row text">
@@ -151,7 +141,12 @@
                 </div>
                 <div class="col-10"></div>
             </div>
-        </div>-->
+    </div>
+
+    <!-- #region BOTTOM BANNER -->
+    <div class="bottom-banner container-fluid">
+            
+        </div>
     <!-- #endregion -->
 
     </div>
@@ -274,7 +269,7 @@
                 ],
                 { name: 'Styled Map' });
 
-            var gym = { lat: 12.97, lng: 77.59 };
+            var gym = { lat: 43.7737009, lng: 11.2152856 };
             // Create a map object, and include the MapTypeId to add
             // to the map type control.
             var map = new google.maps.Map(document.getElementById('map'), {
@@ -287,7 +282,7 @@
             });
 
             var marker = new google.maps.Marker({
-                position: myLatLng,
+                position: gym,
                 map: map,
                 title: 'Hello World!'
             });
@@ -297,7 +292,7 @@
             map.setMapTypeId('styled_map');
         }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkoCFH9tq5cY8QuiMGGjuFtRF8gXW3Vr8&callback=initMap">
     </script>
 
 
