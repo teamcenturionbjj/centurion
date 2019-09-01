@@ -1,0 +1,35 @@
+.about-us {
+    margin-top: 60px;
+    padding: 50px
+}
+
+.about-us-image {
+    width: 35%;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.about-us-text {
+    font-size: 1vw;
+    color: #FFF;
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ol {
+    list-style: none;
+     counter-reset: li
+}
+
+li::before {
+    content: counter(li); 
+    color: crimson;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+li {counter-increment: li}
