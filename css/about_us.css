@@ -4,8 +4,8 @@
 }
 
 .about-us-image {
-    width: 35%;
-    right: 0;
+    width: 40%;
+    right: 5%;
     position: absolute;
     z-index: -1;
 }
@@ -17,6 +17,7 @@
     list-style-position: inside;
     margin-left: 15%;
     margin-right: 15%;
+    font-family: body
 }
 
 ol {

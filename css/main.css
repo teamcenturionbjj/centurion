@@ -1,40 +1,5 @@
-@font-face {
-    font-family: "title";
-    src: url("../fonts/championship.ttf")
-}
-
-@font-face {
-    font-family: "header";
-    src: url("../fonts/ariana_violeta.ttf")
-}
-
 .body {
     background-color: #000;
-}
-
-.navbar-color {
-    background-color:  rgb(229, 227, 227); 
-    height: 70px;
-}
-
-.navbar-logo {
-    width: 40px;
-    margin-right: 20px
-}
-
-.navbar-icon {
-    width: 5%;
-}
-
-.header-logo {
-    width: 30%;
-}
-
-.header-text {
-    font-weight: 900;
-    font-size: 3.5vw;
-    margin-top: 2%;
-    font-family: header;
 }
 
 .masthead {

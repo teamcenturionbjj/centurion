@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "section";
+    src: url("../fonts/championship.ttf")
+}
+
+@font-face {
+    font-family: "special";
+    src: url("../fonts/ariana_violeta.ttf")
+}
+
+@font-face {
+    font-family: "body";
+    src: url("../fonts/roboto-regular.ttf")
+}
+
+@font-face {
+    font-family: "title";
+    src: url("../fonts/roboto-regular.ttf")
+}
