@@ -14,7 +14,7 @@
     font-size: 5vw;
     color: #FFF;
     z-index: 2;
-    font-family: section;
+    font-family: section_title
 }
 
 .section-content-right {
@@ -43,7 +43,7 @@
     font-size: 5vw;
     color: #FFF;
     z-index: 2;
-    font-family: section;
+    font-family: section_title;
 }
 
 .section-content-left {
