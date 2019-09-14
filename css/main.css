@@ -11,11 +11,3 @@
     background-image: url('../images/centurion_competition.jpg');
     background-color: #e5e3e3
 }
-
-.bottom-banner {
-    position: relative;
-    background-color: rgb(221, 221, 221);
-    top: 400px;
-    padding-top: 50px;
-    padding-left: 50px;
-}
