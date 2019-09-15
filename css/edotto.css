@@ -1,0 +1,35 @@
+.edotto {
+    position: relative;
+    margin-top: 10%
+}
+
+.edotto-background { 
+    height: 500px;
+    width: 100%;
+    top: 10%; 
+    object-fit: cover
+}
+
+.edotto-title {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 5vw;
+    color: #FFF;
+    z-index: 2;
+    font-family: section_title;
+}
+
+.edotto-info {
+    position: absolute;
+    top: 10%;
+    font-size: 1vw;
+    color: #FFF;
+    left: 10%;
+    right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: body
+}
