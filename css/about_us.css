@@ -1,6 +1,5 @@
 .about-us {
-    margin-top: 50px;
-    padding: 50px
+    margin-top: 10%;
 }
 
 .about-us-image {
@@ -10,15 +9,30 @@
     z-index: -1;
 }
 
-.about-us-text {
-    font-size: 1vw;
-    color: #FFF;
-    text-align: center;
-    list-style-position: inside;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: body
+@media screen and (min-width: 501px) {
+    .about-us-text {
+        font-size:30px;
+        color: #FFF;
+        text-align: center;
+        list-style-position: inside;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-family: body
+    }
 }
+
+@media screen and (max-width: 500px) {
+    .about-us-text {
+        font-size: 15px;
+        color: #FFF;
+        text-align: center;
+        list-style-position: inside;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-family: body
+    }
+}
+
 
 ol {
     list-style: none;

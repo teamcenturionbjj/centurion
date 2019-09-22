@@ -33,58 +33,19 @@
 </head>
 
 <body class="body">
-    <!-- Navigation -->
-    <!--Navbar -->
-    <!--<nav class="navbar navbar-expand-lg navbar navbar-light navbar-color shadow fixed-top">
-        <img class="navbar-logo" src="images/logo_centurion_small.png" />
-        <a class="navbar-brand" href="#">Centurion Jiu Jitsu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
-            aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
-            <ul class="navbar-nav ml-auto nav-flex-icons">
-                <li class="nav-item avatar">
-                    <a class="nav-link p-0" href="https://www.facebook.com/ilteamcenturion/" target="_blank">
-                        <img src="images/facebook-logo.png" class="z-depth-0" alt="facebook" height="30">
-                    </a>
-                </li>
-            </ul>
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item avatar" style="margin-left: 20px">
-                    <a class="nav-link p-0" href="https://www.instagram.com/centurion_jiu_jitsu/" target="_blank">
-                        <img src="images/instagram.png" class="z-depth-0" alt="instagram" height="30">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>-->
-    <!--/.Navbar -->
-
-    <!-- Full Page Image Header with Vertically Centered Content -->
-    <!--<header class="masthead">
-        <div class="container-flex h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <img class=header-logo src="images/logo_centurion.png" />
-                    <h1 class="header-text"> Welcome to Centurion Jiu Jitsu HQ</h1>
-                </div>
-            </div>
-        </div>
-    </header>-->
 
     <div class="container-fluid">
         <div class="row justify-content-center">
             <img src="images/logo_centurion_light.png"
-                style="width: 60%; margin-top: 100px; margin-right: 80px; max-width: 1200px;">
+                style="width: 80%; height:100%; margin-top: 10%; max-width: 1200px;">
         </div>
         <div class="row justify-content-center social-banner" style="align-items: center;">
-            <div class="col-md-auto" style="width: 100px">
+            <div class="col-md-auto" align="center" style="width: 100px">
                 <a href="https://www.instagram.com/centurion_jiu_jitsu/" target="_blank">
                     <img class="social-icon" src="images/instagram.png">
                 </a>
             </div>
-            <div class=class="col-md-auto" style="width: 100px">
+            <div class=class="col-md-auto" align="center" style="width: 100px">
                 <a href="https://www.facebook.com/ilteamcenturion/" target="_blank">
                     <img class="social-icon" src="images/facebook.png">
                 </a>
@@ -111,7 +72,8 @@
     <!-- Page Content -->
     <div class="container-fluid">
 
-        <div class="row section-root">
+        <div class="row section-root" style="height: 100%; background-color: crimson">
+            
             <img class="section-image-right" src="images/mario.png">
             <h1 class="section-title-left">HEAD COACH</h1>
             <p class="section-content-left">
@@ -152,7 +114,7 @@
                 edizioni.<br />
         </div>
 
-        <div class="row section-root" style="margin-top: 20%">
+        <div class="row section-root" id="team-section">
             <img class="section-image-left" src="images/team.jpg">
             <h1 class="section-title-right">IL TEAM</h1>
             <p class="section-content-right">
@@ -204,7 +166,14 @@
             </p>
         </div>
 
-        <div class="row section-root" style="margin-top: 30%">
+        <script>
+            var screen_width = document.getElementById("team-section").width;
+            console.log(screen_width);
+            console.log("Hello world!");
+            document.getElementById("team-section").style.marginTop = "80%";
+        </script>
+
+        <div class="row section-root" style="margin-top: 330px">
             <img class="section-image-right" src="images/lift.png">
             <h1 class="section-title-left">PREPARAZIONE FISICA</h1>
             <p class="section-content-left">All'asse portante del Jiu Jitsu brasiliano, al Centurion è affiancata la
@@ -299,7 +268,7 @@
 
         <div class="row justify-content-center edotto">
             <img class="edotto-background" src="images/edotto.jpg">
-            <h1 class="edotto-title">PROGRAMMI ALLENAMENTO E ALLOGGIO</h1>
+            <h1 class="edotto-title">ALLOGGIO</h1>
             <p class="edotto-info">Il professor Mario Puccioni è il titolare del bed&breakfast <a
                     href="https://www.airbnb.it/rooms/25614943?source_impression_id=p3_1568548914_jpY5vz%2Fn%2BaHgtNH2"
                     target="_blank"><b style="color: crimson">Edotto</b></a>, sito a poche centinaia di metri
