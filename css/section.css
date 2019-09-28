@@ -72,8 +72,24 @@
     }
 }
 
+@media screen and (min-width: 1000px) {
+    .section-content {
+        font-size: 20px;
+        color: #FFF;
+        outline: 2px solid red;
+        padding: 4vmin;
+        font-family: body;
+        width: 90%;
+        margin: auto;
+        max-width: 1500px;
+        margin-top: 12vw;
+    }
+}
+
+/* ================== IMAGES ================== */
+
 @media screen and (max-width: 500px) {
-    .section-title-right {
+    .section-title {
         right: 10%;
         top: 10%;
         font-size: 30px;
@@ -84,21 +100,21 @@
 }
 
 @media screen and (min-width: 501px) {
-    .section-title-left {
+    .section-title {
         left: 10%;
         top: 10%;
-        font-size: 100px;
+        font-size: 10vw;
         color: #FFF;
         z-index: 2;
         font-family: section_title;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .section-title-left {
+@media screen and (min-width: 1000px) {
+    .section-title {
         left: 10%;
         top: 10%;
-        font-size: 30px;
+        font-size: 120px;
         color: #FFF;
         z-index: 2;
         font-family: section_title;
