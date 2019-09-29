@@ -1,25 +1,50 @@
-.contacts-icon {
-    width: 5%;
-    height: 5%;
-    margin-right: 10px;
-    max-width: 25px;
-    max-height: 25px;
+@media screen and (min-width: 501px) {
+    .contacts-icon {
+        width: 100%;
+        height: 100%;
+        max-width: 25px;
+        max-height: 25px;
+    }
 }
 
-.contacts-logo {
-    width: 100%;
-    margin-right: 30px;
-    max-width: 150px;
+@media screen and (max-width: 500px) {
+    .contacts-icon {
+        width: 100%;
+        height: 100%;
+        max-width: 15px;
+        max-height: 15px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .contacts-logo {
+        width: 100px;
+        margin-right: 5%;
+        margin-left: 5%
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contacts-logo {
+        width: 50px;
+        margin-right: 5%;
+    }
 }
 
 .contact-banner {
-    position: relative;
     background-color: rgb(221, 221, 221);
     padding-top: 2%;
-    padding-bottom: 2%;
     padding-left: 2%;
 }
 
-.contact-text {
-    font-size: 1.1vw;
+@media screen and (min-width: 501px) {
+    .contacts-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contacts-text {
+        font-size: 10px;
+    }
 }
