@@ -8,18 +8,26 @@
     width: 100%;
 }
 
+.map-title-container {
+    width: 50vw;
+    margin: auto;
+}
+
 .map-title {
     margin-top: 20%;
     font-size: 5vw;
     color: #FFF;
-    font-family: section_title
+    font-family: section_title;
+    text-align: center;
 }
 
 .map-sub-title {
     margin-top: 10px;
-    font-size: 1.5vw;
+    margin-bottom: 20%;
+    font-size: 2vw;
     color: #FFF;
     font-family: title;
     box-shadow: 0 0 5px rgb(165, 162, 162);
-    padding: 10px
+    padding: 10px;
+    text-align: center;
 }

@@ -1,60 +1,53 @@
-@media screen and (min-width: 501px) {
-    .contacts-icon {
-        width: 100%;
-        height: 100%;
-        max-width: 25px;
-        max-height: 25px;
-        margin-top: 50%;
-        transition: transform .2s; /* Animation */
-    }
+.contact-banner {
+    background-color: rgb(221, 221, 221);
+    padding: 2%;
+    margin-bottom: 0%
+}
+
+.contacts-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    justify-items: center;
 }
 
 @media screen and (max-width: 500px) {
+    .contacts-container {
+        margin-top: 5px;
+        grid-template-columns: 25px 25px;
+    }
+}
+
+.contacts-icon {
+    width: 100%;
+    height: 100%;
+    max-width: 15px;
+    max-height: 15px;
+    margin: auto;
+    transition: transform .2s;
+    /* Animation */
+}
+
+@media screen and (min-width: 501px) {
     .contacts-icon {
-        width: 100%;
-        height: 100%;
-        max-width: 15px;
-        max-height: 15px;
-        margin-top: 50%;
-        transition: transform .2s; /* Animation */
+        max-width: 25px;
+        max-height: 25px;
     }
 }
 
 .contacts-icon:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 @media screen and (min-width: 501px) {
     .contacts-logo {
         width: 100px;
-        margin-right: 5%;
-        margin-left: 5%;
     }
 }
 
 @media screen and (max-width: 500px) {
     .contacts-logo {
         width: 50px;
-        margin-right: 5%;
-    }
-}
-
-.contact-banner {
-    background-color: rgb(221, 221, 221);
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    margin-bottom: 0%
-}
-
-@media screen and (min-width: 501px) {
-    .contacts-text {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .contacts-text {
-        font-size: 10px;
     }
 }
